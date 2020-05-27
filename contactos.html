@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Contactos</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Registro de Contactos y Visualizacion</h1>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-4 ">
+                <form method="POST" action="Registrador.php">
+                    <div class="form-group ">
+                        <label for="nombre">Nombre</label>
+                        <input name="nombre" type="text" class="form-control" id="nombre" aria-describedby="nombre de usuario">
+                        <small id="nombre" class="form-text text-muted">Ingresse el Nombre</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido</label>
+                        <input name="Apellido" type="text" class="form-control" id="apellido">
+                        <small id="apellido" class="form-text text-muted">Ingrese el Apellido</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="No. Tel">No. Telefonico</label>
+                        <input name="No.Tel" type="text" class="form-control" id="no. tel">
+                        <small id="no. tel" class="form-text text-muted">Ingrese el No. Telefonico</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo</label>
+                        <input name="Correo" type="text" class="form-control" id="correo">
+                        <small id="Correo" class="form-text text-muted">Ingrese el Correo</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="Dirreccion">Dirreccion</label>
+                        <input name="Dirreccion" type="text" class="form-control" id="dideccion">
+                        <small id="dirreccion" class="form-text text-muted">Ingrese la Dirreccion</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar.</button>
+                </form>
+                <br/>
+                <form action="Registrador.php">
+                    <button type="submit" class="btn btn-primary">Contactos guardados.</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
