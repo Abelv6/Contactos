@@ -4,10 +4,10 @@
 	   public function __construct()
        {
 
-	        parent::__construct('localhost','root','','conts');
+	        parent::__construct('localhost','root','','contactos');
             $this->query("SET NAMES 'utf8';");
             $this->connect_errno ? die('Error en la conexion de la base de datos.') : $error="<br><br> Conectado con la base de datos: ";
-            echo $error;
+            //echo $error;
             unset($error);
        }
     }
